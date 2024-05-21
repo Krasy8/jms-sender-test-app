@@ -13,8 +13,8 @@ This app will allow to push a jms message to an existing ActiveMQ queue by passi
 
 
 # Run the app
-You can run the app by executing command: 'mvn spring-boot:run' in the root directory of the project.
+You can run the app by executing command: `mvn spring-boot:run` in the root directory of the project.
 
 # Usage
 When the app is running on local host:8080 execute the below command to send the message:
-  curl -X POST "http://localhost:8080/api/messages/send?destination=<YOUR_QUEUE_NAME>&message=<YOUR_MESSAGE>".
+`curl -X POST "http://localhost:8080/api/messages/send?destination=<YOUR_QUEUE_NAME>&message=<YOUR_MESSAGE>"`.
